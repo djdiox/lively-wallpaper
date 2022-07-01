@@ -1,18 +1,24 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    https://giphy.com/embed/oNAfZqEeriJQR01Jxe"
+    <iframe
+      width="480"
+      height="259"
+      frameBorder="0"
+      class="giphy-embed"
+      allowFullScreen>
+    </iframe>
+    <p>
+      <a href="https://giphy.com/gifs/hd-cinemagraphs-full-oNAfZqEeriJQR01Jxe"
+        >via GIPHY</a
+      >
+    </p>
   </div>
 </template>
-
+>
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
-
 export default {
-  name: 'HomeView',
-  components: {
-    HelloWorld
-  }
-}
+  name: "HomeView",
+};
 </script>
+<style lang="sass"></style>
